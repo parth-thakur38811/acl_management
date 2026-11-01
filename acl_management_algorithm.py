@@ -54,3 +54,4 @@ if __name__ == "__main__":
     # Display the contents of `text`
     
     print(text)
+    return ip_addresses_new
