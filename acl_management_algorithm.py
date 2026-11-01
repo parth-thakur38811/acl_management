@@ -37,6 +37,7 @@ def update_file(import_file, remove_list):
         # Rewriting the file, replacing its contents with `ip_addresses_new`
 
         file.write(ip_addresses_new)
+        return ip_addresses_new
 
 
 # Calling `update_file()` and passing in "allow_list.txt" and an list of IP addresses to be removed
@@ -54,4 +55,4 @@ if __name__ == "__main__":
     # Display the contents of `text`
     
     print(text)
-    return ip_addresses_new
+    
